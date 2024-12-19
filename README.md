@@ -27,17 +27,7 @@
 
 ---
 
-<img src="/home.png" alt="Image de la page d'accueil" />
 
-
-<img src="/login.png" alt="Image de la page de connexion" />
-
-
-<img src="/register.png" alt="Image de la page d'enregistrement" />
-
-<img src="/liste.png" alt="Image de la liste des annonces" />
-
-<img src="/ajouter.png" alt="Image de la page pour ajouter une annonces" />
 
 
 

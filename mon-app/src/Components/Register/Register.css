@@ -1,0 +1,74 @@
+/* Styles spécifiques au formulaire Register */
+.register-container {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+    margin-top: 80px; /* Marge pour un peu d'espace depuis le haut */
+  }
+  
+  .register-container:hover {
+    transform: scale(1.02); /* Léger effet de zoom pour plus de dynamisme */
+  }
+  
+  .register-container h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .register-container input:focus {
+    border-color: #4f86f1;
+    box-shadow: 0 0 10px rgba(79, 134, 241, 0.3);
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4f86f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #3d6ed4;
+    transform: translateY(-2px); /* Légère élévation du bouton */
+  }
+  
+  .register-container button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 30px;
+      width: 90%;
+      box-shadow: none;
+    }
+  
+    .register-container h1 {
+      font-size: 28px;
+    }
+  }
+  

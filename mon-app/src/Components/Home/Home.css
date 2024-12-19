@@ -1,0 +1,72 @@
+/* Styles spécifiques à la page Home */
+.home-container {
+    background-color: #f9fafb;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home-container:hover {
+    transform: scale(1.02); /* Légère animation de zoom */
+  }
+  
+  .home-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .home-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home-container li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .home-container li:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-container li p {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .home-container li p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .home-container {
+      padding: 30px;
+      width: 90%;
+    }
+  
+    .home-container h1 {
+      font-size: 28px;
+    }
+  
+    .home-container li {
+      padding: 15px;
+    }
+  
+    .home-container li p {
+      font-size: 16px;
+    }
+  }
+  

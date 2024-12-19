@@ -27,17 +27,17 @@
 
 ---
 
-<img src="/images/home.png" alt="Image de la page d'accueil" />
+<img src="/home.png" alt="Image de la page d'accueil" />
 
 
-<img src="/images/login.png" alt="Image de la page de connexion" />
+<img src="/login.png" alt="Image de la page de connexion" />
 
 
-<img src="/images/register.png" alt="Image de la page d'enregistrement" />
+<img src="/register.png" alt="Image de la page d'enregistrement" />
 
-<img src="/images/liste.png" alt="Image de la liste des annonces" />
+<img src="/liste.png" alt="Image de la liste des annonces" />
 
-<img src="/images/ajouter.png" alt="Image de la page pour ajouter une annonces" />
+<img src="/ajouter.png" alt="Image de la page pour ajouter une annonces" />
 
 
 
